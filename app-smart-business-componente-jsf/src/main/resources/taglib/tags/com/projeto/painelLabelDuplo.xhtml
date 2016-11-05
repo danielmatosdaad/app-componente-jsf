@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:c="http://xmlns.jcp.org/jsp/jstl/core"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:cc="http://xmlns.jcp.org/jsf/composite"
+	xmlns:projeto="http://url.projeto/componentes">
+
+<ui:composition>
+
+	<c:set var="painelLabelDuploBean"
+		value="#{idBeanObjetoPainelLabelDuplo}" />
+
+	<!-- Primeiramente vem o MenuBean -->
+	<h:panelGrid id="#{idBeanPainel}" columns="2" border="1"
+		cellpadding="6" cellspacing="6">
+
+		<!--Dentro de Painel Label Duplo Bean tem uma lista de que contera informacoes do label	-->
+		<f:facet name="header">
+			<h:outputText value="Titulo" />
+		</f:facet>
+		<c:forEach var="labelDescricaoValor"
+			items="#{painelLabelDuploBean.labelDescricaoValor}">
+			<h:panelGroup columns="1">
+				<h:outputLabel value="#{labelDescricaoValor.id}" rendered="true" />
+			</h:panelGroup>
+			<h:panelGroup columns="2">
+				<h:outputLabel value="#{labelDescricaoValor.descricao}"
+					rendered="true" />
+			</h:panelGroup>
+			<h:panelGroup columns="3">
+				<h:outputLabel value="#{labelDescricaoValor.valor}" rendered="true" />
+			</h:panelGroup>
+		</c:forEach>
+		<f:facet name="footer">
+			<h:panelGroup style="display:block; text-align:center">
+				<h:outputText value="Rodape" />
+			</h:panelGroup>
+		</f:facet>
+	</h:panelGrid>
+
+</ui:composition>
+</html>
