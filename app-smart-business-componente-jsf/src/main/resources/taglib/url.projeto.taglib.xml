@@ -12,9 +12,51 @@
 			</source>
 		</tag>
 		<tag>
-		  <tag-name>entradadados</tag-name>
+		  <tag-name>input-text-mask</tag-name>
 			<source>
-			        tags/com/projeto/entradadados.xhtml
+			        tags/com/projeto/input-text-mask.xhtml
+		     </source>
+		</tag>
+		<tag>
+		  <tag-name>input-text-keyboard</tag-name>
+			<source>
+			        tags/com/projeto/input-text-keyboard.xhtml
+		     </source>
+		</tag>
+		<tag>
+		  <tag-name>input-selectoneradio</tag-name>
+			<source>
+			        tags/com/projeto/input-selectoneradio.xhtml
+		     </source>
+		</tag>
+		<tag>
+		  <tag-name>input-selectonemenu</tag-name>
+			<source>
+			        tags/com/projeto/input-selectonemenu.xhtml
+		     </source>
+		</tag>
+		<tag>
+		  <tag-name>input-password</tag-name>
+			<source>
+			        tags/com/projeto/input-password.xhtml
+		     </source>
+		</tag>
+		<tag>
+		  <tag-name>input-calendar</tag-name>
+			<source>
+			        tags/com/projeto/input-calendar.xhtml
+		     </source>
+		</tag>
+		<tag>
+		  <tag-name>input-autocomplete</tag-name>
+			<source>
+			        tags/com/projeto/input-autocomplete.xhtml
+		     </source>
+		</tag>
+		<tag>
+		  <tag-name>input-text</tag-name>
+			<source>
+			        tags/com/projeto/input-text.xhtml
 		     </source>
 		</tag>
 		<tag>

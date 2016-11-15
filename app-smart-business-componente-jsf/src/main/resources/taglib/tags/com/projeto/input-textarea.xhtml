@@ -5,12 +5,10 @@
 	xmlns:h="http://xmlns.jcp.org/jsf/html"
 	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
 	xmlns:cc="http://xmlns.jcp.org/jsf/composite"
-	xmlns:projeto="http://url.projeto/componentes">
-
+	xmlns:projeto="http://url.projeto/componentes"
+	xmlns:p="http://primefaces.org/ui">
 <ui:composition>
-	<h:outputLabel id="#{idNegocialLabel}" value="#{valorLabel}"
-		rendered="true" />
-	<h:inputText id="#{idNegocialTexto}" value="#{valorText}"
-		rendered="true" />
+	<p:outputLabel id="#{idNegocialLabel}" for="#{idNegocialTexto}" value="#{idNegocialvalorLabel}" rendered="true"  />
+	<p:inputTextarea id="#{idNegocialTexto}" value="#{idNegocialvalorText}" rendered="true"  />
 </ui:composition>
 </html>
