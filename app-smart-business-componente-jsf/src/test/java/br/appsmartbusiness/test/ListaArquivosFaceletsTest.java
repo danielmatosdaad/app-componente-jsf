@@ -10,7 +10,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 import br.com.projeto.arquivo.util.FileUtil;
-import br.projeto.util.FaceltsRegistrados;
+import br.projeto.util.ComponentesRegistrados;
 import br.projeto.util.PathResouceFacelet;
 import junit.framework.TestCase;
 
