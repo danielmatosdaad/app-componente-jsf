@@ -7,20 +7,14 @@
 	<composite-library-name>componentes</composite-library-name>
 	 	<tag>
 		    <tag-name>botao-padrao</tag-name>
-		    <source>
-		        tags/com/projeto/componente/composite/botao-padrao.xhtml
-			</source>
+		    <source>resources/tags/botao-padrao.xhtml</source>
 		</tag>
 		<tag>
 		  <tag-name>label-input-text</tag-name>
-			<source>
-			        tags/com/projeto/componente/composite/label-input-text.xhtml
-		     </source>
+			<source>resources/tags/label-input-text.xhtml</source>
 		</tag>
 		<tag>
 		  <tag-name>titulo</tag-name>
-			<source>
-			        tags/com/projeto/componente/composite/titulo.xhtml
-		     </source>
+			<source>resources/tags/titulo.xhtml</source>
 		</tag>
 </facelet-taglib>
